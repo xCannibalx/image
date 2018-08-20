@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(BG.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+
+}
+#box{
+    height: 200px;
+    width: 1000px;
+    background-color:#3F0063;
+    border-radius: 5px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#main{
+    height: 400px;
+    width: 450px;
+    background-color:white;
+    border-radius: 5px;
+    position: absolute;
+    top:50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+}
+
+
+#validateform,#resetform{
+    position: absolute;
+    top:50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+#resetform{
+    top:45%;
+    left: 75%;
+    visibility: hidden;
+}
+#validateform h1,#resetform h1{
+    font-family: arial;
+    font-size: 25px;
+    color:#3F0063;
+}
+#validateform input,#resetform input{
+    height: 40px;
+    width: 300px;
+    border: 0px;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin: 5px;
+}
+#validateform button,#resetform button{
+    height: 35px;
+    width: 130px;
+    background-color:#3F0063;
+    font-family: monospace;
+    font-size: 16px;
+    color:white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 175px;
+}
+
+#validateform a {
+    font-family: arial;
+    
+    color:#3F0063;
+    
+}
+#reset_btn{
+    height: 35px;
+    width: 120px;
+    background-color:transparent;
+    color:#3F0063;
+    border:1px solid white;
+    border-radius: 5px;
+    outline: none;
+    position: absolute;
+    
+    transform: translate(-50%,-50%);
+    
+}
+#reset_btn{
+    left: 25%;
+}
+#login_btn:hover,#reset_btn:hover{
+    background-color:white;
+    color:#3F0063;
+    cursor: pointer;
+}
+
+#rs_btn:hover{
+    background-color:white;
+    cursor: pointer;
+    color: #3F0063;
+    
+}
+
+a{
+
+    text-decoration: none;
+}
+#rs_btn{
+    color: white;
+}
