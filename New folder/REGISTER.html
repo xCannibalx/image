@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link href="REGISTER.css" rel="stylesheet"/>
+    </head>
+    <body>
+        
+        
+        <div id="main">
+            <form id="renew">
+                <h1>Policy Details</h1><hr size="1" color="crimson">
+                
+                
+                <table width="400" align="center">
+                
+                
+                <tr><td>Policy No. </td>	<td>${Policy.policyNo}</td></tr>
+                <tr><td>Policy Type: </td>			<td>${Policy.policyType} </td></tr>
+                <tr><td>Start Date: </td>	<td><v id="myDate">${Policy.startDate}</v></td></tr>
+                <tr><td>Last Date: </td>		<td><v id="myDate">${Policy.lastDate}</v></td></tr>
+                <tr><td>Premium Value:</td>	<td>${Policy.premiumValue}</td><tr>
+                
+                </table> 
+                    
+                 </form>
+        </div>
+        
+        
+    </body>
+</html>
